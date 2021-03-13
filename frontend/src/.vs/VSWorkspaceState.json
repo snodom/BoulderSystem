@@ -1,0 +1,16 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\components\\forms",
+    "\\components\\forms\\addingPageForm",
+    "\\pages",
+    "\\pages\\addBoulderPage",
+    "\\pages\\addCardPage",
+    "\\pages\\boulderListPage",
+    "\\pages\\displayBoulderPage",
+    "\\pages\\homePage",
+    "\\pages\\testHoldPage"
+  ],
+  "SelectedNode": "\\pages\\addBoulderPage\\AddBoulderPage.css",
+  "PreviewInSolutionExplorer": false
+}

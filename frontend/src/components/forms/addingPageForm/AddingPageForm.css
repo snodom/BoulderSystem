@@ -1,0 +1,151 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-wrapper {
+  
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px;
+  width: 50%;
+  border-radius: 2%;
+  background-color: #ffffff;
+
+}
+
+.form-wrapper h1 {
+  text-align: center;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: #111;
+  font-weight: lighter;
+}
+
+.form-wrapper label {
+  font-size: 0.8em;
+  color: #222;
+  font-weight: lighter;
+}
+
+
+
+.form-wrapper input {
+  width: 100%;
+  padding: 3% 3%;
+  margin-bottom: 15px; 
+  text-align: center;
+  background: rgb(27,36,47);
+  border: 0;
+  border-bottom: 3px solid rgb(4,194,201) !important  ;
+  color:white;
+  font-family: raleway !important ;
+  outline: 0 !important;
+  font-size: 1em !important;
+}
+
+.form-wrapper input::placeholder {
+  font-size: 1.2em;
+  color: #999;
+}
+
+.title,
+.description,
+.source,
+.tags {
+  display: flex;
+  flex-direction: column;
+}
+
+.author,
+.link {
+  width: 100%;
+}
+
+.description,
+.tags {
+  width: 100%;
+}
+
+.form-wrapper input.error {
+  border: 1px solid red;
+}
+
+.form-wrapper .errorMessage {
+  color: red;
+  font-size: 0.75em;
+  display: relative;
+  text-align: center;
+  
+}
+
+.form-wrapper .addTab button {
+  position: relative;
+  left: 0;
+  left: 0;
+  background-color: white;
+  margin-top: 20px;
+  height: 50px;
+  font-size: 1.2em;
+  width: 100%;
+  border-radius:2em;
+  color: rgb(4,194,201);;
+  border: 2px solid rgb(4,194,201);
+}
+
+.form-wrapper .addTab button:active {
+  color: white;
+  background-color: rgb(4,194,201);;
+  }
+
+  .form-wrapper .addTab button:hover {
+    color: white;
+    background-color: rgb(4,194,201);;
+    }
+
+.choice{
+  position: relative;
+  display: block;
+}
+.choice h1{
+  font-size: 20px;
+  text-transform: uppercase;
+}
+
+.choice input{
+  height: 30px;
+}
+
+.addTab button:focus {outline:0;}
+
+@media all and (max-width:30em){
+  .addTab button{
+    width: 100%;
+    display: block;
+    margin: 0.4em auto;
+    padding: 0.3em 1.2em;
+    font-size: 2vw;
+  }
+};
+  
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  grid-auto-rows: 40px;
+  gap: 0px 0px;
+  grid-template-areas:
+  ". . . . . . . ."
+  ". . . . . . . ."
+  ". . . . . . . ."
+  ". . . . . . . ."
+  ". . . . . . . ."
+  ". . . . . . . ."
+  ". . . . . . . ."
+  ". . . . . . . .";
+
+  justify-content: center;
+  padding: 10px;
+}

@@ -1,0 +1,21 @@
+.hold{  
+    width: 48px; /* ewentualnie do zmiany */
+    height: 48px;
+    margin: 2px;
+    background-color: white;
+    justify-self: center;
+    border-width: 5px;
+    border-color:black;
+    border-style: solid;
+}   
+
+.hold_clicked{
+    width: 48px; /* ewentualnie do zmiany */
+    height: 48px;
+    margin: 2px;
+    background-color: red;
+    justify-self: center;
+    border-style: solid;
+    border-width: 5px;
+    border-color:black;
+}

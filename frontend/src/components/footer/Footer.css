@@ -1,0 +1,57 @@
+#footer
+{
+    position: relative;
+	width: 100%;
+	height: 60px;
+    background: rgb(27,36,47);
+	padding-bottom: 2.5rem;
+    bottom: 0;
+}
+
+#footer-nick
+{
+	color: #8f9aa7;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+	font-family: raleway;
+	font-size: 14px;
+	position: relative;
+}
+
+#color
+{
+	color: #e31b6d; 
+}
+
+#footer-button
+{
+	text-align: center; 
+	position: relative;
+	bottom: 90px;
+	color: rgb(27,36,47);
+}
+
+.icon-up-open
+{
+	background: #e31b6d;
+	font-size: 35px;
+	transition: .5s;
+}
+
+.icon-up-open:hover
+{
+	background: rgb(261,61,131);
+	transition: .5s;
+}
+
+#footer-text
+{
+	position: relative;
+	color: #8f9aa7;
+	top: 75px;
+	text-align: center;
+	font-size: 22px;
+	font-family: raleway;
+	letter-spacing: 1px;
+}
